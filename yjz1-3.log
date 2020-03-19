@@ -1,0 +1,18 @@
+Started by user [8mha:////4I/wPqNGqFzc/3+a1Hbx+43uvzyAz71u/mzVbcDZOAJ9AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0m???
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/yjz1
+using credential be3b2cff-5268-4182-a600-9c667c9d0280
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/JZ-Yang/JZ-Yang.git # timeout=10
+Fetching upstream changes from https://github.com/JZ-Yang/JZ-Yang.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://github.com/JZ-Yang/JZ-Yang.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/master^{commit} # timeout=10
+Checking out Revision d959267cb02644286ee607c4e7f124693ed40c3e (origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d959267cb02644286ee607c4e7f124693ed40c3e # timeout=10
+Commit message: "xxx"
+ > git rev-list --no-walk 18a8cc0c6ede537b6d0c3fea41e5b82a82acef20 # timeout=10
+[yjz1] $ /bin/sh -xe /tmp/jenkins225865540374636220.sh
